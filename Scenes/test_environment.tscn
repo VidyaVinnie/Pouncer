@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://xtsegvahnvpa"]
+
+[ext_resource type="PackedScene" uid="uid://g3txli4rtm7r" path="res://Scenes/the_beginning.tscn" id="1_qr04o"]
+[ext_resource type="PackedScene" uid="uid://bfljmgxsp0bpt" path="res://Scenes/pouncer.tscn" id="2_xgi52"]
+
+[node name="TestEnvironment" type="Node2D"]
+
+[node name="TheBeginning" parent="." instance=ExtResource("1_qr04o")]
+
+[node name="Pouncer" parent="." instance=ExtResource("2_xgi52")]
